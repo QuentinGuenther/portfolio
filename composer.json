@@ -1,0 +1,15 @@
+{
+    "name":"marketing-tool",
+    "authors": [
+        {
+            "name": "Quentin Guenther",
+            "email": "qguenther@outlook.com"
+        }
+    ],
+    "require": {
+        "bcosca/fatfree-core": "dev-master"
+    },
+    "autoload": {
+        "classmap": ["models/"]
+    }
+}

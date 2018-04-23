@@ -16,5 +16,8 @@
     $f3->set('DEBUG', 3);
 
     // routes
+    $f3->route('GET|POST /', function($f3) {
+        echo Template::instance()->render('views/templates/home.html');
+    });
 
-?>
+    $f3->run();

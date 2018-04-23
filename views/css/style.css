@@ -1,0 +1,39 @@
+#slide-out {
+    padding: 1em;
+}
+
+#slide-out h1 {
+    font-size: 2rem;
+    line-height: 0;
+}
+
+#slide-out h2 {
+    font-size: 1.5rem;
+    line-height: 0;
+}
+
+.side-link-header {
+    border-bottom: 2px solid #FFF;
+    margin-bottom: 1.5em;
+}
+
+.side-link-footer {
+    position: fixed;
+    top: 80%;
+    width: 100%;
+}
+
+.side-link-footer a {
+    cursor: pointer;
+    color: #FFF !important;
+    display: inline !important;
+    padding: 0px !important;
+}
+
+.fab, .fas {
+    color: #FFF !important;
+}
+
+.btn-floating {
+    margin-top: 1em;
+}

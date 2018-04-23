@@ -1,0 +1,50 @@
+<!DOCTYPE <!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Quentin Guenther - Portfolio</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
+    <link rel="stylesheet" 
+        href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" 
+        integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" 
+        crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="{{ @BASE }}/views/css/style.css">
+</head>
+<body>
+    <ul id="slide-out" class="sidenav sidenav-fixed blue-grey darken-1">
+        <li class="side-link-header">
+            <img id="profile-image" class="circle" src="{{ @BASE }}/views/images/profile-image.jpeg">
+            <h1 class="white-text">Quentin Guenther</h1>
+            <h2 class="white-text">Software Engineer</h2>
+            <a href="mailto:qguenther@outlook.com" class="blue-text darken-1">qguenther@outlook.com</a>
+        </li>
+        <li><a href="#about" class="white-text">About Me<i class="fas fa-user fa-2x"></i></a></li>
+        <li><a href="#education" class="white-text">Education<i class="fas fa-graduation-cap fa-2x"></i></a></li>
+        <li><a href="#certifications" class="white-text">Certifications<i class="fas fa-clipboard fa-2x"></i></a></li>
+        <li><a href="#projects" class="white-text">Projects<i class="fas fa-file-alt fa-2x"></i></a></li>
+        <li><a href="#contact" class="white-text">Contact<i class="fas fa-envelope fa-2x"></i></a></li>
+
+        <li class="side-link-footer">
+            <a href="#"><i class="fab fa-github fa-2x"></i></a>
+            <a href="#"><i class="fab fa-linkedin-in fa-2x"></i></a>
+        </li>
+    </ul>
+
+    <main class="container">
+        <a href="#" data-target="slide-out" class="sidenav-trigger btn-floating btn-large waves-effect waves-light blue-grey darken-1"><i class="fas fa-bars fa-4x"></i></a>
+    </main>
+
+    <!-- Compiled and minified JavaScript -->
+    <script
+        src="http://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
+    <script src="{{ @BASE }}/views/javascripts/side-menu.js"></script>
+</body>
+</html>
